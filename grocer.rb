@@ -60,7 +60,7 @@ end
 def checkout(cart, coupons)
   ans = 0 
   
-  
+  cart = 
 
 
 end
