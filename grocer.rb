@@ -68,7 +68,7 @@ def checkout(cart, coupons)
     ans += data[:price] * data[:count]
   end 
   if ans > 100 
-    ans = ans
+    ans = ans * .90
 ans
 end
 
