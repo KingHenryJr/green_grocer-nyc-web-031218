@@ -30,13 +30,11 @@ end
 def apply_coupons(cart, coupons)
   
   coupons.each do |coupon|
-    coupon_name = info[:item] + " W/COUPON"  
-    binding.pry
-    cart[coupon_name][:price] = info[:cost]
-    cart[coupon_name][:clearance] = cart[info[:item]][:clearence]
-    cart[info[:item]][:count] -= info[:num]
-  end
-  return cart
+    name  
+  
+  
+  end 
+  
 end
 
 def apply_clearance(cart)
