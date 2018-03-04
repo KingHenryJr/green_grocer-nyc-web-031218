@@ -29,7 +29,7 @@ end
 
 def apply_coupons(cart, coupons)
   
-  coupons.each do |info|
+  coupons.each do |coupon|
     coupon_name = info[:item] + " W/COUPON"  
     binding.pry
     cart[coupon_name][:price] = info[:cost]
