@@ -39,7 +39,9 @@ def apply_coupons(cart, coupons)
       cart["#{name} W/COUPON"][:clearance] = cart[name][:clearance]
     end
       cart[name][:count] -= coupon[:num]  
-    
+    end
+  end 
+  return cart
   end 
   
 end
