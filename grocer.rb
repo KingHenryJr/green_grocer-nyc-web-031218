@@ -51,7 +51,7 @@ def apply_clearance(cart)
     attributes = item[1]
     if attributes[:clearance] == true 
       discount = attributes[:price] * 0.80
-      attributes[:price] = discount.round()
+      attributes[:price] = discount.round(2)
     end
   end
   cart
