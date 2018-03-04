@@ -50,7 +50,7 @@ def apply_clearance(cart)
   cart.each do |item|
     attributes = item[1]
     if attributes[:clearance] == true 
-      discount = attributes[:price] = 
+      discount = attributes[:price] * (.80)
 
 end
 
