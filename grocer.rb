@@ -58,6 +58,8 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
+  ans = 0 
+  
   
 
 
