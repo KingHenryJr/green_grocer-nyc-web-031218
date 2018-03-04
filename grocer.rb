@@ -31,7 +31,7 @@ def apply_coupons(cart, coupons)
   
   coupons.each do |coupon|
     name = coupon[:item] 
-      
+    
   
   
   end 
