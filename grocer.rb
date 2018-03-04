@@ -69,6 +69,7 @@ def checkout(cart, coupons)
   end 
   if ans > 100 
     ans = ans * 0.9
+  end
 ans
 end
 
