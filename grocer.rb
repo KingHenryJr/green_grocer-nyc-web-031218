@@ -67,7 +67,7 @@ def checkout(cart, coupons)
   cart.each do |name, data|
     ans += data[:price] * data[:count]
   end 
-
+  
 ans
 end
 
